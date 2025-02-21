@@ -1,0 +1,29 @@
+POST http://localhost:3333/subscriptions
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "rodrigo123asdsaddas@gmail.com",
+  "referrer": "8530cae0-d4ba-4082-99f9-61955d9d9526"
+}
+
+###
+
+GET http://localhost:3333/invites/dd88346f-1ac6-4899-9071-624d099d634c
+
+###
+
+GET http://localhost:3333/subscribers/dd88346f-1ac6-4899-9071-624d099d634c/rankinkg/clicks
+
+###
+
+GET http://localhost:3333/subscribers/dd88346f-1ac6-4899-9071-624d099d634c/rankinkg/count
+
+
+###
+
+GET http://localhost:3333/subscribers/dd88346f-1ac6-4899-9071-624d099d634c/rankinkg/position
+
+###
+
+GET http://localhost:3333/ranking
